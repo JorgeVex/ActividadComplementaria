@@ -90,7 +90,7 @@ class Actividad2():
         return [( x - valor_medio) / desv_estand for x in self.data]
 
 
-#Generar una lista de 50 numeros aleatorios entre 1 y 50
+#Generar una lista de 20 numeros aleatorios entre 1 y 5
 data = [random.randint(1, 5) for _ in range(20)]
 
 #Imprimir los numeros de la lista de forma horizontal, separado por comas
