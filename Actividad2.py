@@ -41,10 +41,10 @@ class Actividad2():
         """
         
         encontrar_dato = sorted(self.data)
-        n = len (encontrar_dato)
+        n = len(encontrar_dato)
         valor_medio = n // 2
         if n % 2 == 0:
-            return (encontrar_dato[valor_medio - 1]) + encontrar_dato [valor_medio] / 2
+            return (encontrar_dato[valor_medio - 1] + encontrar_dato[valor_medio]) / 2
         else:
             return encontrar_dato[valor_medio]
     
